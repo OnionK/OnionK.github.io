@@ -945,8 +945,8 @@
 @-webkit-keyframes fadeInLeft {
 	0% {
 		opacity: 0;
-		-webkit-transform: translateX(-100px);
-		transform: translateX(-100px);
+		-webkit-transform: translateX(-200px);
+		transform: translateX(-200px);
 	}
 	100% {
 		opacity: 1;
@@ -958,9 +958,9 @@
 @keyframes fadeInLeft {
 	0% {
 		opacity: 0;
-		-webkit-transform: translateX(-100px);
-		-ms-transform: translateX(-100px);
-		transform: translateX(-100px);
+		-webkit-transform: translateX(-200px);
+		-ms-transform: translateX(-200px);
+		transform: translateX(-200px);
 	}
 	100% {
 		opacity: 1;
@@ -1011,8 +1011,8 @@
 @-webkit-keyframes fadeInRight {
 	0% {
 		opacity: 0;
-		-webkit-transform: translateX(100px);
-		transform: translateX(100px);
+		-webkit-transform: translateX(200px);
+		transform: translateX(200px);
 	}
 	100% {
 		opacity: 1;
@@ -1024,9 +1024,9 @@
 @keyframes fadeInRight {
 	0% {
 		opacity: 0;
-		-webkit-transform: translateX(100px);
-		-ms-transform: translateX(100px);
-		transform: translateX(100px);
+		-webkit-transform: translateX(200px);
+		-ms-transform: translateX(200px);
+		transform: translateX(200px);
 	}
 	100% {
 		opacity: 1;
@@ -1077,8 +1077,8 @@
 @-webkit-keyframes fadeInUp {
 	0% {
 		opacity: 0;
-		-webkit-transform: translateY(20px);
-		transform: translateY(20px);
+		-webkit-transform: translateY(40px);
+		transform: translateY(40px);
 	}
 	100% {
 		opacity: 1;
@@ -1090,9 +1090,9 @@
 @keyframes fadeInUp {
 	0% {
 		opacity: 0;
-		-webkit-transform: translateY(20px);
-		-ms-transform: translateY(20px);
-		transform: translateY(20px);
+		-webkit-transform: translateY(40px);
+		-ms-transform: translateY(40px);
+		transform: translateY(40px);
 	}
 	100% {
 		opacity: 1;
@@ -1171,8 +1171,8 @@
 	}
 	100% {
 		opacity: 0;
-		-webkit-transform: translateY(20px);
-		transform: translateY(20px);
+		-webkit-transform: translateY(40px);
+		transform: translateY(40px);
 	}
 }
 
@@ -1185,9 +1185,9 @@
 	}
 	100% {
 		opacity: 0;
-		-webkit-transform: translateY(20px);
-		-ms-transform: translateY(20px);
-		transform: translateY(20px);
+		-webkit-transform: translateY(40px);
+		-ms-transform: translateY(40px);
+		transform: translateY(40px);
 	}
 }
 

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Target</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="img/favicon2.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/journalim.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="MoreHtml">
+    <div class="More_header">
+        <div class="logo-bar">
+            <a href="index.html"><img src="img/logo.svg" alt=""></a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <p ><span><a class="News_left News" href="journalim.html">News</a></span> > <span class="News_right News">Domain name resolution change</span></p>
+
+
+                <div class="Domain">
+                    <p>Domain name resolution change notification</p>
+                    <p>April 4 , 2018</p>
+                </div>
+
+                <div class="Honorable">
+                    <p>Honorable user:</p>
+                    <p>Target will make the following changes to the IP segment of internal and external domain names from April 17, 2018. The expected completion time is three weeks:</p>
+                    <p>1, Eastern 1 (Virginia) external domain name:</p>
+                    <p>The DNS record of oss-us-east-1.aliyuncs.com and *.oss-us-east-1.aliyuncs.com is parsed to 47.252.0.0/16 segment.</p>
+                    <P>2, Eastern 1 (Virginia) intranet domain name:</P>
+                    <P>The DNS record of oss-us-east-1-internal.aliyuncs.com and *.oss-us-east-1-internal.aliyuncs.com is parsed to 100.115.0.0/16 segment.Users who use firewall or security group security mechanisms need to check:</P>
+                    <p>1. If there is a configuration ACL or security group in the machine that can not access the IP segment after the above changes,the 47.252.0.0/16 and 100.118.0.0/16 segments can be added to the network ACL before March 23rd</p>
+                    <p>2. Whether or not directly using IP or directly configuring OSS, network domain name and IP parsing mapping in the machine,and not accessing OSS by using the internal and external domain name.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="more_foot">
+        <div class="CopyText">CopyRight © 2017-2018 Target Technology International Limited.</div>
+    </div>
+
+    <div class="topBtn">
+        <img src="img/top.png" alt="">
+    </div>
+</div>
+
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/index.js"></script>
+</html>
